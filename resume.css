@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+#main-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 1000px;
+    margin: 25px auto;
+    background: beige;
+    box-shadow: 5px 10px 6px 2px rgba(6, 9, 212, 0.2);
+}
+#left-div{
+    width:40%;
+    padding:20px;
+    border-right: 5px solid rgb(0, 0, 128);
+    margin:5px;
+}
+#profile-pic{
+    padding : 40px;
+    align-content: center;
+}
+#profile{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    border: 5px solid rgb(0, 0, 128);
+}
+.sub-head{
+    color: rgb(0, 0, 128);
+    text-transform: uppercase;
+}
+
+#skill,
+#soft-skill,
+#award,
+#language,
+#interest{
+    padding : 5px 20px 0px 20px;
+}
+
+.skills,
+.soft-skills{
+    display: inline-block;
+    color: rgb(7, 23, 104);
+    padding:5px;
+    border: 2px solid  rgb(132, 161, 172) ;
+    border-radius: 10px;
+    margin: 5px ;
+    background-color  : rgb(137, 159, 169); 
+}
+
+.awd{
+    line-height: 1;
+}
+.awd h3{
+    color: rgb(176, 15, 15);   
+}
+#right-div{
+    width:60%;
+    padding:20px;
+    margin:10px;
+}
+#info{
+    margin-bottom:5px;
+    padding:10px;
+}
+#my-name{
+    color:rgb(0, 0, 128);
+}
+#info h4{
+    color:rgb(176, 15, 15);
+    font-size: large;
+}
+#about{
+    font-size: large;
+    text-align: justify;
+    padding:10px;
+    padding-top: 0px;
+    margin-right:10px;
+}
+
+#contact-details{
+    background-color:bisque ;
+    font-size: larger;
+    border-radius: 10px;
+    margin:10px;
+}
+
+#contact-details p{
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 10px;
+    padding:5px;
+}
+
+#contact-details p i{
+    color: rgb(176, 15, 15);
+}
+
+#project{
+    font-size: large;
+    text-align: left;
+    padding: 20px 30px;
+}
+.projects{
+    color: rgb(176, 15, 15); 
+}
+
+#project p{
+    line-height: 1;
+}
+#education{
+    font-size: large;
+    text-align: left;
+    padding:20px 30px;
+    padding-top:0px;
+    line-height: 1;
+}
+
+.school{
+    color: rgb(176, 15, 15); 
+}
+
